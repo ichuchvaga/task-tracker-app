@@ -13,11 +13,11 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: "/",
+      path: "/vue/task-tracker/",
       component: Home,
     },
     {
-      path: "/tasks",
+      path: "/vue/task-tracker/tasks",
       component: Tasks,
     }
   ]

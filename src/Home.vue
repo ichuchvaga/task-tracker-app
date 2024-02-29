@@ -12,7 +12,7 @@
           <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">Данный сервис предлагает уплавление Вашими задачами</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <router-link to="/tasks" class="btn btn-primary btn-lg px-4 gap-3">Список задач</router-link>
+              <router-link to="/vue/task-tracker/tasks" class="btn btn-primary btn-lg px-4 gap-3">Список задач</router-link>
             </div>
           </div>
         </div>
