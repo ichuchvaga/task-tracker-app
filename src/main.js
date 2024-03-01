@@ -10,14 +10,15 @@ import Home from './Home.vue';
 import Tasks from './Tasks.vue';
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/vue/task-tracker/'),
+  base: "/vue/task-tracker/",
   routes: [
     {
-      path: "/vue/task-tracker/",
+      path: "/",
       component: Home,
     },
     {
-      path: "/vue/task-tracker/tasks",
+      path: "/tasks",
       component: Tasks,
     }
   ]

@@ -43,6 +43,7 @@ export const useTasksStore = defineStore('tasks', {
       const new_id = new Date().getTime(); // get timestamp
       data.id = new_id;
       this.tasks.push(data);
+      this.saveToStorage();
     },
     remove(id) {
       if (!id) {
